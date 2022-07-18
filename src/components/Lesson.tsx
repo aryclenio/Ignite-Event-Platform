@@ -52,7 +52,7 @@ export function Lesson(props: LessonProps) {
             'border-white': isActiveLesson,
             'border-green-300': !isActiveLesson
           })}>
-            {props.type === 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
+            {props.type === 'live' ? 'LIVE' : 'HANDS ON CLASS'}
           </span>
         </header>
 
