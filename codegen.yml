@@ -11,5 +11,5 @@ generates:
     config:
       reactApolloVersion: 3
       withHooks: true
-      withHOC: false
+      withHOC: true
       withComponents: false
